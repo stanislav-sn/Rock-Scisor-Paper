@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
     padding: 0;
@@ -93,3 +94,100 @@ body {
     display:block;
     cursor:pointer;   
 }
+=======
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: #FFEA00;
+}
+.winners {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    top: 100px;
+    font-weight: 800;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.score {
+    margin-bottom: 15px;
+    font-size: 27px;
+}
+.ai-line {
+    display: flex;
+}
+.you-line {
+    display: flex;
+}
+.ai {
+    padding-right: 33px;
+}
+.you {
+    padding-right: 8px;
+}
+.reset {
+    margin-top: 15px;
+    height: 25px;
+    width: 72px;
+    background-color: #FFEA00;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid black;
+}
+.reset:hover {
+	color: #ffffff;
+	background-color: black;
+    transition: all 400ms ease;
+}
+.out {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    z-index: 1;
+    height: 44px;
+    width: 350px;
+    margin: auto;
+    font-size: 50px;
+    font-weight: 800;
+}
+.text-choise {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    z-index: 1;
+    top: 130px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.buttons_place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    top: -422px;
+    left: -9px;
+}
+.param {
+    height: 350px;
+    width: 245px;
+    margin: auto;
+    background:transparent;
+    border:none;
+    outline:none;
+    display:block;
+    cursor:pointer;   
+}
+>>>>>>> 07c9c3f (made localstorage)
